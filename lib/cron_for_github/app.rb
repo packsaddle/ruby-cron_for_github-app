@@ -1,4 +1,4 @@
-require "cron_for_github/app/version"
+require 'cron_for_github/app/version'
 
 module CronForGithub
   module App
