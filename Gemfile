@@ -1,4 +1,6 @@
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in cron_for_github-app.gemspec
-gemspec
+gem 'rake'
