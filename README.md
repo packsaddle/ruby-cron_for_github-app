@@ -1,5 +1,7 @@
 # CronForGithub::App
 
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/packsaddle/ruby-cron_for_github-app)
+
 [![Build Status](http://img.shields.io/travis/packsaddle/ruby-cron_for_github-app/master.svg?style=flat)](https://travis-ci.org/packsaddle/ruby-cron_for_github-app)
 
 ## Development
