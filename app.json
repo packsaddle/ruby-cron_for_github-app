@@ -9,7 +9,6 @@
   "repository": "https://github.com/packsaddle/ruby-cron_for_github-app",
   "logo": "https://cloud.githubusercontent.com/assets/75448/6443449/462580c8-c13a-11e4-8cf6-36be81a2f737.jpg",
   "env": {
-    "BUILDPACK_URL": "https://github.com/stomita/heroku-buildpack-phantomjs",
     "GITHUB_ACCESS_TOKEN": {
       "description": "An access token for GitHub, grant 'public_repo' or 'repo'."
     }
