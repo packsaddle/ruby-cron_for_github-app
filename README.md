@@ -28,6 +28,15 @@ bundle exec cron-for-github clear --slug=YOU/YOUR_REPO && bundle exec cron-for-g
 
 [Actual example](https://github.com/packsaddle/example-circle_ci-pull_request/branches/all)
 
+## Recommendation
+
+Set `--verbose` option and watch metrics and logs with newrelic, logentries, etc., as your other app does.
+
+```
+bundle exec cron-for-github clear --slug=YOU/YOUR_REPO --verbose && bundle exec cron-for-github ping --slug=YOU/YOUR_REPO --verbose
+```
+
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `bin/console` for an interactive prompt that will allow you to experiment.
