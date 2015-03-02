@@ -8,7 +8,7 @@
 
 After deploy, you visit:
 
-dashboard -> app -> resources -> scheduler ->
+dashboard -> YOUR APP -> resources -> scheduler ->
 
 ```
 bundle exec cron-for-github ping --slug=YOU/YOUR_REPO
