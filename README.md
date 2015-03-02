@@ -24,6 +24,10 @@ If you want to clear cron branches before create branch, you can do below:
 bundle exec cron-for-github clear --slug=YOU/YOUR_REPO && bundle exec cron-for-github ping --slug=YOU/YOUR_REPO
 ```
 
+## Example
+
+[Actual example](https://github.com/packsaddle/example-circle_ci-pull_request/branches/all)
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `bin/console` for an interactive prompt that will allow you to experiment.
