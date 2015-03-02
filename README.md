@@ -28,6 +28,10 @@ bundle exec cron-for-github clear --slug=YOU/YOUR_REPO && bundle exec cron-for-g
 
 [Actual example](https://github.com/packsaddle/example-circle_ci-pull_request/branches/all)
 
+## Command
+
+[command details](https://github.com/packsaddle/ruby-cron_for_github#command)
+
 ## Recommendation
 
 Set `--verbose` option and watch metrics and logs with newrelic, logentries, etc., as your other app does.
