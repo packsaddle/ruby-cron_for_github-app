@@ -3,5 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 source 'https://rubygems.org'
 
-gem 'rake'
-gem 'test-unit'
+group :test do
+  gem 'rake', group: :development
+  gem 'test-unit', group: :development
+end
