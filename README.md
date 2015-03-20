@@ -54,6 +54,27 @@ Set `--verbose` option and watch metrics and logs with newrelic, logentries, etc
 bundle exec cron-for-github clear --slug=YOU/YOUR_REPO --verbose && bundle exec cron-for-github ping --slug=YOU/YOUR_REPO --verbose
 ```
 
+## Motivation
+
+We solve this! :)
+[Build periodically travis-ci/travis-ci](https://github.com/travis-ci/travis-ci/issues/582)
+
+## VS.
+
+### [The Travis CI cron trigger](http://traviscron.pythonanywhere.com/)
+
+Good service for Travis-CI.
+The Travis CI cron trigger requires form submitting, and only for Travis-CI.
+
+### [Tachikoma.io](http://tachikoma.io)
+
+Dependency Update as a Service.
+Tachikoma.io is only dependency update, so problem specific SaaS.
+If you NEVER want to maintenance your server (include Heroku), Tachikoma.io suits you.
+
+### [zapier](https://zapier.com/)/[ifttt](https://ifttt.com/)
+
+We don't know how to achieve yet.
 
 ## Development
 
