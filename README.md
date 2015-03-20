@@ -13,7 +13,7 @@ This also wakes *web-hooks* up!
 * Watch building branch name!
 ```bash
 # Run only sunday (heroku scheduler kicks everyday)
-if [[ "${BRANCH_NAME}" != "master" && "${BRANCH_NAME}" =~ ^cron_for_github/.* && $(date +%w) -eq 0 ]]; then
+if [[ "${BRANCH_NAME}" =~ ^cron_for_github/.* && $(date +%w) -eq 0 ]]; then
   # You want to do
 fi
 ```
