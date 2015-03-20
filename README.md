@@ -10,7 +10,9 @@ Kick GitHub **periodically** by creating branch with Heroku Scheduler.
 This also wakes *web-hooks* up!
 
 * Create a branch which name with prefix periodically (e.g. `cron_for_github/__UUID__`)
-* Watch building branch name!
+* Test periodically, it works!
+* Do an additional task, watch building branch name!
+
 ```bash
 # Run only sunday (heroku scheduler kicks everyday)
 if [[ "${BRANCH_NAME}" =~ ^cron_for_github/.* && $(date +%w) -eq 0 ]]; then
