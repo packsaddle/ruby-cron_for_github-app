@@ -4,6 +4,20 @@
 
 [![Build Status](http://img.shields.io/travis/packsaddle/ruby-cron_for_github-app/master.svg?style=flat)](https://travis-ci.org/packsaddle/ruby-cron_for_github-app)
 
+## tl;dr
+
+Kick GitHub **periodically** by creating branch with Heroku Scheduler.
+This also wakes *web-hooks* up!
+
+* Create a branch which name with prefix periodically (e.g. `cron_for_github/__UUID__`)
+* Watch building branch name!
+```bash
+# Run only sunday (heroku scheduler kicks everyday)
+if [[ "${BRANCH_NAME}" != "master" && "${BRANCH_NAME}" =~ ^cron_for_github/.* && $(date +%w) -eq 0 ]]; then
+  # You want to do
+fi
+```
+
 ## Usage
 
 After deploy, you visit:
@@ -16,7 +30,7 @@ bundle exec cron-for-github ping --slug=YOU/YOUR_REPO
 
 It works!
 
-### One more thing...
+### Keep your branches clear
 
 If you want to clear cron branches before create branch, you can do below:
 
